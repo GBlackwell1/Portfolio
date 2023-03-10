@@ -62,6 +62,6 @@
   }
 
   .portfolio__features-container__feature {
-    margin: 1rem;
+    margin: 1rem 0;
   }
 }
