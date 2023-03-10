@@ -1,0 +1,104 @@
+.portfolio__experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #728DA8 25%, #292C41 85%, #728DA8 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #728DA8 25%, #292C41 85%, #728DA8 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #728DA8 25%, #292C41 85%, #728DA8 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #728DA8 25%, #292C41, #728DA8 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #728DA8 25%, #292C41 85%, #728DA8 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.portfolio__experience-feature {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.portfolio__experience-feature .portfolio__features-container__feature {
+    margin: 0;
+}
+
+.portfolio__experience-feature .portfolio__features-container__feature-big {
+    max-width: 700px;
+}
+
+.portfolio__experience-heading {
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 4rem 0 2rem;
+}
+
+.portfolio__experience-heading h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  
+  font-weight: 800;
+  max-width: 510px;
+  font-size: 34px;
+  line-height: 45px;
+}
+
+.portfolio__experience-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3__whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        margin-top: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .portfolio__experience-feature .portfolio__experience-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .portfolio__experience-feature .portfolio__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .portfolio__experience-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .portfolio__experience-container .portfolio__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
