@@ -17,19 +17,19 @@ a {
 .gradient__bg {
 
     /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 3% 25%, rgba(6, 18, 73, 1) 0%, rgba(54, 163, 207, 1) 99%);
+    background:-moz-radial-gradient(circle at 3% 25%, #38455A 0%, #292C41 99%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 3% 25%, rgba(6, 18, 73, 1) 0%, rgba(54, 163, 207, 1) 99%);
+    background:-webkit-radial-gradient(circle at 3% 25%, #38455A 0%, #292C41 99%);
 
     /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 3% 25%, rgba(6, 18, 73, 1) 0%, rgba(54, 163, 207, 1) 99%);
+    background:-o-radial-gradient(circle at 3% 25%, #38455A 0%, #292C41 99%);
 
     /* ie 10+ */
-    background:-ms-radial-gradient(circle at 3% 25%, rgba(6, 18, 73, 1) 0%, rgba(54, 163, 207, 1) 99%);
+    background:-ms-radial-gradient(circle at 3% 25%, #38455A 0%, #292C41 99%);
 
     /* global 92%+ browsers support */
-    background:radial-gradient(circle at 3% 25%, rgba(6, 18, 73, 1) 0%, rgba(54, 163, 207, 1) 99%);
+    background:radial-gradient(circle at 3% 25%, #38455A 0%, #292C41 99%);
 
 } 
 
