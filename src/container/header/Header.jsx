@@ -1,10 +1,9 @@
 import React from 'react'
 import "./header.css"
 import portrait from "../../assets/me.png";
-import GitCat from "../../assets/githubcat.png";
-import GitWord from "../../assets/githubword.png";
-import YouTube from "../../assets/youtube.png";
-import LinkedIn from "../../assets/linkedin.png";
+import GitHub from "../../assets/github9x3.png";
+import YouTube from "../../assets/youtube9x3.png";
+import LinkedIn from "../../assets/linkedin9x3.png";
 /* Put back in new portrait when you can */
 
 const Header = () => {
@@ -23,15 +22,15 @@ const Header = () => {
         </p>
         <div className="portfolio__header-links">
           <div>
-            <img src={GitCat} alt="GitCat" className="portfolio__header-links-git"/>
-            <img src={GitWord} alt="GitWord" className="portfolio__header-links-gitword"/>
-          </div>
-          <div className="portfolio__header-links-yt">
-            <img src={YouTube} alt="YouTube" />
-          </div>
-          <div className="portfolio__header-links-lin">
-            <p>Linked</p>
-            <img src={LinkedIn} alt="LinkedIn" />
+            <a href="https://github.com/GBlackwell1">
+              <img src={GitHub} alt="GitHub" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCd5QUkMRgLIAvRb9qeNd33w">
+              <img src={YouTube} alt="YouTube" />
+            </a>
+            <a href="https://cat-bounce.com/">
+              <img src={LinkedIn} alt="LinkedIn" />
+            </a>
           </div>
         </div>
       </div>

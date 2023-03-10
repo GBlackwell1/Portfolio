@@ -17,9 +17,6 @@
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
-
-  /* or 121% */
-  letter-spacing: -0.04em;
 }
 
 .portfolio__header-content p {
@@ -52,33 +49,16 @@
 
 .portfolio__header-links {
   display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
 }
 
-.portfolio__header-links-git {
-  height: 40px;
-  width: 40px;    
+.portfolio__header-links img {
+  height: auto;
+  width: 90px;
+  margin-right: 0.5rem;
 }
 
-.portfolio__header-links-gitword {
-  width: 78px;
-  height: 33px;   
-}
-
-.portfolio__header-links-yt img {
-  width: 131px;
-  height: 70px;
-}
-
-.portfolio__header-links-lin img {
-  width: 43px;
-  height: 39px;
-}
-
-.portfolio__header-links-lin p {
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 45px;
-}
 
 @media screen and (max-width: 1050px) {
   .portfolio__header {
