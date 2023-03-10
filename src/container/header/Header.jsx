@@ -4,7 +4,6 @@ import portrait from "../../assets/me.png";
 import GitHub from "../../assets/github9x3.png";
 import YouTube from "../../assets/youtube9x3.png";
 import LinkedIn from "../../assets/linkedin9x3.png";
-/* Put back in new portrait when you can */
 
 const Header = () => {
   return (
