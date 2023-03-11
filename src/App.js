@@ -1,7 +1,7 @@
 import React from 'react'
 // easy indexing :)
-import { Footer, Blog, Possibility, HI3Tech, Experience, Header } from './container';
-import { CTA, Navbar } from './components';
+import { Footer, /*Blog,*/ Education, HI3Tech, Experience, Header } from './container';
+import { Navbar } from './components';
 import './App.css';
 
 const App = () => {
@@ -13,9 +13,8 @@ const App = () => {
       </div>
       <Experience />
       <HI3Tech/>
-      <Possibility />
-      <CTA />
-      <Blog />
+      <Education />
+      { /* <Blog /> */ }
       <Footer />
     </div>
   )
