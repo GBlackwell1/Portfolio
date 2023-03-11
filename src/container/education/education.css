@@ -13,16 +13,16 @@
 }
 
 .portfolio__education-image img {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: auto;
 }
 
 .portfolio__education-content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .portfolio__education-content h4 {
@@ -60,5 +60,9 @@
   }
   .portfolio__education-content {
     margin-top: 2rem;
+  }
+  .portfolio__education-image img {
+    width: 100%;
+    height: 100%;
   }
 }
