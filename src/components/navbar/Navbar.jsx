@@ -10,7 +10,7 @@ const Menu = () => (
   <p>< a href="#experience">Experience</a></p>
   <p>< a href="#ongoingprojects">Ongoing Projects</a></p>
   <p>< a href="#education">Education</a></p>
-  <p>< a href="#blog">Blog</a></p>
+  {/*<p>< a href="#blog">Blog</a></p>*/}
   </>        
 )
 // BEM -> Block Element Modifier

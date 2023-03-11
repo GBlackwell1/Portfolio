@@ -1,0 +1,55 @@
+.portfolio__hi3tech {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.portfolio__hi3tech-heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column; 
+  text-align: left;
+  margin-right: 5rem;
+
+  background-image: url("../../assets/robo-arm.png");
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.portfolio__hi3tech-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+
+.portfolio__hi3tech-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+  .portfolio__hi3tech {
+    flex-direction: column;
+  }
+
+  .portfolio__hi3tech-heading {
+    background-image: none;
+    margin: 0 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio__hi3tech-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}

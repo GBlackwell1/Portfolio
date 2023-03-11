@@ -1,6 +1,6 @@
 import React from 'react'
 // easy indexing :)
-import { Footer, Blog, Possibility, Features, Experience, Header } from './container';
+import { Footer, Blog, Possibility, HI3Tech, Experience, Header } from './container';
 import { CTA, Navbar } from './components';
 import './App.css';
 
@@ -12,7 +12,7 @@ const App = () => {
         <Header />
       </div>
       <Experience />
-      <Features />
+      <HI3Tech/>
       <Possibility />
       <CTA />
       <Blog />
