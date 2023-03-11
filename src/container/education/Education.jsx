@@ -1,5 +1,5 @@
 import React from 'react'
-import SCImage from "../../assets/cocky.png"
+import SCImage from "../../assets/southcarolinaFINAL.png"
 import './education.css'
 
 const Education = () => {
