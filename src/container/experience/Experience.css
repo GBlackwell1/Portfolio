@@ -87,11 +87,15 @@
     /* Customizing feature component as per needs */
     .portfolio__experience-feature .portfolio__features-container_feature-text {
         margin-top: 0.5rem;
+        margin-bottom: 1rem;
     }
-
     .portfolio__experience-heading h1 {
         font-size: 28px;
         line-height: 40px;
+        margin-bottom: 2rem;
+    }
+    .portfolio__experience {
+        flex-direction: column;
     }
 }
 
@@ -100,5 +104,8 @@
     .portfolio__experience-container .portfolio__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
+    }
+    .portfolio__experience {
+        flex-direction: column;
     }
 }

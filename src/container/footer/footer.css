@@ -38,3 +38,9 @@
   background-color:#38455A;
   border-color: #728DA8;
 }
+
+@media screen and (max-width: 850px) {
+  .portfolio__footer-content h1 {
+    font-size: 40px;
+  }
+}

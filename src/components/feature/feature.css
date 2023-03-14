@@ -35,6 +35,7 @@
   flex: 2;
   max-width: 390px;
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .portfolio__features-container_feature-text p {
