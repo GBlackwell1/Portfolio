@@ -27,6 +27,7 @@ const featuresData = [
 
 const HI3Tech = () => {
   return (
+  <div>
     <div className="portfolio__hi3tech section__padding" id="ongoingprojects">
       <div className="portfolio__hi3tech-heading">
         <h1 className="gradient__text">The HI3 Tech lab’s ongoing projects push 
@@ -38,12 +39,15 @@ const HI3Tech = () => {
           <Feature title={item.title} text={item.text} stylechoice="portfolio__features-container__feature"  key={item.title + index} />
         ))}
       </div>
-      <div>
-        <br/>
-        <h5 className='portfolio__hi3tech-sponsors'>Our lab is sponsored by:<br/>
-         </h5>
-      </div>
     </div>
+    <div>
+      <br/>
+      <h5 className='portfolio__hi3tech-sponsors'>Our lab is sponsored by 
+      the National Instutes of Health, American Cancer Society, The National Science Foundation,
+      Prisma Health, and other national sponsors
+      </h5>
+    </div>
+  </div>
   )
 }
 
