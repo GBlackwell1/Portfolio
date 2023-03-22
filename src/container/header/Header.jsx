@@ -21,13 +21,13 @@ const Header = () => {
         </p>
         <div className="portfolio__header-links">
           <div>
-            <a href="https://github.com/GBlackwell1">
+            <a href="https://github.com/GBlackwell1" target="_blank">
               <img src={GitHub} alt="GitHub" />
             </a>
-            <a href="https://www.youtube.com/channel/UCd5QUkMRgLIAvRb9qeNd33w">
+            <a href="https://www.youtube.com/channel/UCd5QUkMRgLIAvRb9qeNd33w" target="_blank">
               <img src={YouTube} alt="YouTube" />
             </a>
-            <a href="https://cat-bounce.com/">
+            <a href="https://www.linkedin.com/in/gabriel-blackwell-45224826a/" target="_blank">
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
           </div>

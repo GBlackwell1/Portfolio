@@ -18,7 +18,7 @@ const Footer = () => {
         <button onClick={copyToClipboard} >
           gabrielsblackwell@gmail.com
         </button>
-        <a href="https://cat-bounce.com/">
+        <a href="https://www.linkedin.com/in/gabriel-blackwell-45224826a/" target="_blank">
           <img src={LinkedIn} alt="LinkedIn" />
         </a>
       </div>
