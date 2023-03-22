@@ -35,6 +35,7 @@
   flex: 2;
   max-width: 390px;
   display: flex;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
 

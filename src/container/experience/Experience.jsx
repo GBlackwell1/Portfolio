@@ -10,7 +10,7 @@ const Experience = () => {
         <Feature title="Experience" />
         <div className="portfolio__experience-heading">
           <h1 className="gradient__text">
-            I strive to be a self-motivated 
+            I am a highly self-motivated 
             individual, actively seeking experience outside of academics
           </h1>
         </div>

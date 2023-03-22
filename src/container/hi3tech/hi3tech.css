@@ -36,6 +36,11 @@
   flex-direction: column;
 }
 
+.portfolio__hi3tech-sponsors {
+  font-family: var(--font-family);
+  color: #DAD3B4; 
+}
+
 @media screen and (max-width: 990px) {
   .portfolio__hi3tech {
     flex-direction: column;

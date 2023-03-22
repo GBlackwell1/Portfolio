@@ -38,6 +38,11 @@ const HI3Tech = () => {
           <Feature title={item.title} text={item.text} stylechoice="portfolio__features-container__feature"  key={item.title + index} />
         ))}
       </div>
+      <div>
+        <br/>
+        <h5 className='portfolio__hi3tech-sponsors'>Our lab is sponsored by:<br/>
+         </h5>
+      </div>
     </div>
   )
 }
