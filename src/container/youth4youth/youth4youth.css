@@ -1,0 +1,38 @@
+.portfolio__youth4youth-heading {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+}
+.portfolio__youth4youth-heading-bar {
+    width: 100px;
+    height: 8px;
+    background: var(--gradient-bar);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.25);
+    margin-bottom: 0.25rem;
+}
+.portfolio__youth4youth-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.portfolio__youth4youth-container img {
+    box-shadow: 0.5rem 0.5rem 0.25rem;
+}
+.portfolio__youth4youth-container p {
+    color: #DAD3B4;
+    font-family: var(--font-family);
+    max-width: 50%;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 840px) {
+    .portfolio__youth4youth-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .portfolio__youth4youth-container p {
+        padding-top: 2rem;
+        max-width: 100%;
+    }
+}

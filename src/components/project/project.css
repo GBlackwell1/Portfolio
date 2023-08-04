@@ -1,0 +1,26 @@
+.portfolio_project-container_image {
+    width: 100%;
+}
+.portfolio_project-container_image img {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+}
+.portfolio_project-container_cards {
+    background-color: var(--color-blog);
+    border-radius: 15px;
+    box-shadow: 0.25rem 0.25rem 0.75rem;
+}
+.portfolio_project-container_cards h1, p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.gradient__text {
+    font-family: var(--font-family);
+    font-weight: 350;
+}
+.sub__text {
+    color: #DAD3B4;
+    font-family: var(--font-family);
+    font-weight: 100;
+}
