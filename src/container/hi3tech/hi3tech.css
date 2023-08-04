@@ -14,11 +14,28 @@
   text-align: left;
   margin-right: 5rem;
 
-  background-image: url("../../assets/robo-arm.png");
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 30% -100%, #728DA8 5%, #728DA8 20%, #292C41 80%);
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 30% -100%, #728DA8 5%, #728DA8 20%, #292C41 80%);
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 30% -100%, #728DA8 5%, #728DA8 20%, #292C41 80%);
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 30% -100%, #728DA8 5%, #728DA8 20%, #292C41 80%);
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 30% -100%, #728DA8 5%, #728DA8 20%, #292C41 80%);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.portfolio__hi3tech-heading img {
+  max-width: 250px;
+  height: auto;
+  opacity: 0.25;
 }
 
 .portfolio__hi3tech-heading h1 {
@@ -36,29 +53,16 @@
   flex-direction: column;
 }
 
-.portfolio__hi3tech-sponsors {
-  font-family: var(--font-family);
-  color: #DAD3B4; 
-  font-weight: normal;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  margin-bottom: 5rem;
-  text-align: right;
-}
-
 @media screen and (max-width: 990px) {
   .portfolio__hi3tech {
     flex-direction: column;
   }
-
   .portfolio__hi3tech-heading {
     background-image: none;
-    margin: 0 0 2rem 0;
+    padding: 0rem;
   }
-
-  .portfolio__hi3tech-sponsors {
-    text-align: left;
-    margin-left: 6rem;
+  .portfolio__hi3tech-heading img {
+    display: none;
   }
 }
 
@@ -67,8 +71,7 @@
     font-size: 28px;
     line-height: 38px;
   }
-  .portfolio__hi3tech-sponsors {
-    text-align: left;
-    margin-left: 2rem;
+  .portfolio__hi3tech-heading img {
+    display: none;
   }
 }

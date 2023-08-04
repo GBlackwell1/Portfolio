@@ -16,20 +16,22 @@ const Experience = () => {
         </div>
         <Feature title="In-lab Development" text="I started working as a Research 
         Volunteer beginning summer of 2022, I was then promoted to Paid Research 
-        Assistant at winter of 2023.  I have been granted more paid hours than 
-        standard, due to my work ethic."/>
+        Assistant at winter of 2023.  I was granted additional paid hours due to work ethic. 
+        In the summer of 2023 I was promoted to a full time lab manager and lead software engineer."/>
       </div>
       { /* Right Information */ }
       <div className="portfolio__experience-container">
-        <Feature title="Programming Languages" text="My knowledge exists in low-level 
-        and back-end languages such as Java, C++ and ASM. As an engineer I am familiar 
-        with R & Matlab equivalent functional languages. I have delved into Robotic 
-        Operating System (ROS 1) and Python for automating robotic movements. I have 
-        personal experience in React, JS, HTML, and CSS along with plenty of git experience 
-        and UNIX terminal familiarity."/>
+        <Feature title="Programming Languages" text="My skillset is multilayered across several disciplines
+        in computer science and computer engineering. I am adept at Firebase, releasing several production applications
+        and using Python to analyze user data and gain feedback based off testing results. At university, I excelled in C++ 
+        and Java classes, applying technical and structural knowledge towards my robotics class, using Robotic Operating 
+        System (ROS 1) and Python to automate robotic movements. Continuing to my personal lab projects, using Unity and C# I have 
+        developed a front-end platform to visualize VR robotics movements. My personal work is in JavaScript and JS frameworks such as React. 
+        I have become knowledgable in React, developing several websites including this one using the framework. I have also applied
+        Java to Android application development."/>
         <Feature title="Personal Work and Interests" text="Much of my in-lab and personal 
-        work is in web development. Specifically developing chat-bots and creating innovative 
-        ways to communicate with an end user."/>
+        work is in web development, exploring new technologies in the space. 
+        Specifically developing chat-bots and creating innovative ways to communicate with an end user."/>
       </div>
     </div>
   )

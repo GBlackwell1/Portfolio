@@ -10,7 +10,7 @@
 
 .portfolio__features-container__feature-title {
   flex: 1;
-  max-width: 180px;
+  max-width: 250px;
   margin-right: 2rem;
 }
 
@@ -33,7 +33,7 @@
 
 .portfolio__features-container_feature-text {
   flex: 2;
-  max-width: 390px;
+  max-width: 600px;
   display: flex;
   margin-top: 0.5rem;
   margin-bottom: 1rem;

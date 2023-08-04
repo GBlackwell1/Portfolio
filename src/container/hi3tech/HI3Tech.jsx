@@ -1,7 +1,7 @@
 import React from 'react'
 import "./hi3tech.css"
 import { Feature } from "../../components"
-
+import Sponsors from "../../assets/sponsors-light.png";
 const featuresData = [
   {
     title: 'Remote Robotics Lab',
@@ -33,6 +33,7 @@ const HI3Tech = () => {
         <h1 className="gradient__text">The HI3 Tech lab’s ongoing projects push 
           the boundary of what’s possible in the HCI field.
         </h1>
+        <img src={Sponsors}></img>
       </div>
       <div className="portfolio__hi3tech-container">
         {featuresData.map((item, index) => (
@@ -40,13 +41,13 @@ const HI3Tech = () => {
         ))}
       </div>
     </div>
-    <div>
+    {/* <div>
       <br/>
       <h5 className='portfolio__hi3tech-sponsors'>Our lab is sponsored by 
       the National Institutes of Health, American Cancer Society, The National Science Foundation,
       Prisma Health, and other national sponsors
       </h5>
-    </div>
+    </div> */}
   </div>
   )
 }
