@@ -10,6 +10,7 @@ const Menu = () => (
   <p>< a href="#experience">Experience</a></p>
   <p>< a href="#ongoingprojects">HI3 Tech Labs</a></p>
   <p>< a href="#projects">Projects</a></p>
+  <p>< a href="#photography">Photography</a></p>
   <p>< a href="#youth4youth">Youth4Youth</a></p>
   <p>< a href="#education">Education</a></p>
   </>        

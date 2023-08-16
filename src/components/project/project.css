@@ -24,3 +24,12 @@
     font-family: var(--font-family);
     font-weight: 100;
 }
+
+@media screen and (max-width: 840px) {
+    .portfolio_project-container_cards h1 {
+        font-size: larger;
+    }
+    .portfolio_project-container_cards p {
+        font-size: small;
+    }
+}

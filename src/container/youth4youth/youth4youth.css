@@ -17,6 +17,7 @@
     padding-top: 2rem;
 }
 .portfolio__youth4youth-container img {
+    max-width: 100%;
     box-shadow: 0.5rem 0.5rem 0.25rem;
 }
 .portfolio__youth4youth-container p {

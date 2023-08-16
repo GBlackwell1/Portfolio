@@ -5,3 +5,4 @@ export { default as Header } from './header/Header'
 export { default as Education } from './education/Education'
 export { default as Experience } from './experience/Experience'
 export { default as Youth4Youth } from './youth4youth/Youth4Youth';
+export { default as Photography } from './photography/Photography';

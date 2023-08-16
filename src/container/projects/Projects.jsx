@@ -9,7 +9,7 @@ import RA from "../../assets/robotarm.jpg";
 
 const Projects = () => {
   const [isMobile, setIsMobile] = useState(false);
-
+  checkResize();
   window.onresize = checkResize; 
   function checkResize() {
     if (window.innerWidth <= 1050 && isMobile === false) {

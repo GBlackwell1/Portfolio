@@ -1,6 +1,6 @@
 import React from 'react'
 // easy indexing :)
-import { Footer, Projects, Education, HI3Tech, Experience, Header, Youth4Youth } from './container';
+import { Footer, Projects, Education, HI3Tech, Experience, Photography, Header, Youth4Youth } from './container';
 import { Navbar } from './components';
 import './App.css';
 
@@ -14,6 +14,7 @@ const App = () => {
       <Experience />
       <HI3Tech/>
       <Projects />
+      <Photography />
       <Youth4Youth />
       <Education />
       <Footer />
