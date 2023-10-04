@@ -1,6 +1,7 @@
 # Portfolio Project
 
-I followed a tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=LMagNcngvcU) to help with the making of this website.
+I followed a tutorial by [JavaScript Mastery](https://www.youtube.com/watch?v=LMagNcngvcU) to help with the building blocks of the website.<br/>
+Link to [website](https://gabrielsblackwell.me/).
 
 ## Figma
 
