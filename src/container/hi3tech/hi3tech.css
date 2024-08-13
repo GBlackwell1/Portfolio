@@ -1,4 +1,5 @@
 .portfolio__hi3tech {
+  margin-top: -4rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -32,6 +33,7 @@
 
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .portfolio__hi3tech-heading img {
   max-width: 250px;
   height: auto;
@@ -73,5 +75,8 @@
   }
   .portfolio__hi3tech-heading img {
     display: none;
+  }
+  .portfolio__hi3tech {
+    margin-top: 1rem;
   }
 }

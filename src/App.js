@@ -11,8 +11,8 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <ChatComponent />
       <Experience />
+      <ChatComponent />
       <HI3Tech/>
       <Projects />
       <Photography />

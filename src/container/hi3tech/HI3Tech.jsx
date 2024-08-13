@@ -41,13 +41,6 @@ const HI3Tech = () => {
         ))}
       </div>
     </div>
-    {/* <div>
-      <br/>
-      <h5 className='portfolio__hi3tech-sponsors'>Our lab is sponsored by 
-      the National Institutes of Health, American Cancer Society, The National Science Foundation,
-      Prisma Health, and other national sponsors
-      </h5>
-    </div> */}
   </div>
   )
 }
