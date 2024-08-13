@@ -1,8 +1,7 @@
 import React from "react";
 import "./youth4youth.css";
-import Cat from "../../assets/workinhard.gif"
-import { Feature } from "../../components/index";
-
+import ChatComponent from "../../components/chatbot/ChatComponent";
+import WorkinHard from "../../assets/workinhard.gif";
 const Youth4Youth = () => {
     return (
         <div id="youth4youth" className="section__padding">
@@ -17,7 +16,8 @@ const Youth4Youth = () => {
                 to students that might not have the capabilities to garner information by any other means. The marketing team
                 is working hard to establish an online presence on social media and creating a website. Check back in the future
                 to keep updated!</p>
-              <img src={Cat}></img>
+                <img src={WorkinHard} />
+              {/*<ChatComponent />*/}
             </div>
         </div>
     );

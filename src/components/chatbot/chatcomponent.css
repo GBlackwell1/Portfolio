@@ -1,0 +1,60 @@
+.chatcontainer {
+    height: 30rem;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-blog);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0.25rem 0.25rem 0.75rem;
+    font-family: var(--font-family);
+    font-style: normal;
+    padding: .5rem;
+
+    overflow: scroll;
+    scrollbar-color: var(--color-primary) var(--color-blog);
+}
+.messages_box {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.inputbox_container input{
+    width: 80%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    font-family: var(--font-family);
+    font-style: normal;
+}
+.inputbox_container button {
+    width: 15%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-family: var(--font-family);
+}
+/* Messages styling */
+.message__assistant {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    max-width: 70%;
+    align-self: flex-start;
+}
+.message__user {
+    background-color: var(--color-blog);
+    color: var(--color-primary);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    max-width: 70%;
+    align-self: flex-start;
+    font-weight: bolder;
+}

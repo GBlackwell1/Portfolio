@@ -1,7 +1,7 @@
 import React from 'react'
 // easy indexing :)
 import { Footer, Projects, Education, HI3Tech, Experience, Photography, Header, Youth4Youth } from './container';
-import { Navbar } from './components';
+import { Navbar, ChatComponent } from './components';
 import './App.css';
 
 const App = () => {
@@ -11,6 +11,7 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
+      <ChatComponent />
       <Experience />
       <HI3Tech/>
       <Projects />
