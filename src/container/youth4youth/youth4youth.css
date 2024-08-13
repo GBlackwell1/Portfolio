@@ -4,6 +4,11 @@
     font-size: 40px;
     line-height: 55px;
 }
+#youth4youth {
+    display: flex;
+    gap: 8rem;
+}
+
 .portfolio__youth4youth-heading-bar {
     width: 100px;
     height: 8px;
@@ -11,19 +16,37 @@
     box-shadow: 10px 10px 10px rgba(0,0,0,0.25);
     margin-bottom: 0.25rem;
 }
+
 .portfolio__youth4youth-container {
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
 }
-.portfolio__youth4youth-container img {
-    max-width: 100%;
-    box-shadow: 0.5rem 0.5rem 0.25rem;
+
+.header_container {
+    display: flex;
+    flex-direction: column;
 }
+
+.header_container img {
+    width: 30%;
+}
+
+.MockContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phoneMockImage {
+    width: 100%;
+    height: auto;
+}
+
+
 .portfolio__youth4youth-container p {
     color: #DAD3B4;
     font-family: var(--font-family);
-    max-width: 50%;
     line-height: 30px;
 }
 
@@ -32,8 +55,19 @@
         display: flex;
         flex-direction: column-reverse;
     }
-    .portfolio__youth4youth-container p {
-        padding-top: 2rem;
-        max-width: 100%;
+    .header_container {
+        margin-top: 1rem;  
+    }
+    .phoneMockImage {
+        width: 100%;
+    }
+    .header_container img {
+        display: none;
+    }
+    
+    #youth4youth {
+        gap: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

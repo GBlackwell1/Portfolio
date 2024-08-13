@@ -4,7 +4,7 @@ import "./chatcomponent.css"
 
 const ChatComponent = () => {
     const [input, setInput] = useState('');
-    const [messages, setMessages] = useState([]);
+    const [messages, setMessages] = useState([{role: "assistant", content: "Start typing and send messages to get started and learn more about me!"}]);
     const [loading, setLoading] = useState(false);
     const messagesEndRef = useRef(null);
     
@@ -21,7 +21,7 @@ const ChatComponent = () => {
         });
     };
     useEffect(() => {
-        if(messages != '') scrollToBottom()
+        if(messages.length > 1) scrollToBottom()
     }, [messages]);
     /** 
      * Handle responses from axios' request to OpenAPI, send headers which defines the data sent,
