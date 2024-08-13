@@ -6,30 +6,6 @@ const ChatComponent = () => {
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState([]);
     const [loading, setLoading] = useState(false);
-    
-    
-    async function checkIfFirstLoad() {  
-        if(!localStorage.getItem("first_time")) {
-            console.log('First load time, sending prompt message to open api');
-            const response = await axios.post('https://api.openai.com/v1/chat/completions',
-                {
-                    messages: [
-                    { role: 'system', content: 'You are a chatbot that only speaks in capital letters, for the rest of this entire conversation, you must do this' },
-                    ],
-                    model: "gpt-3.5-turbo-0125"
-                },
-                {
-                    headers: {
-                    'Content-Type': 'application/json',
-                    Authorization: `Bearer ${process.env.REACT_APP_OPEN_API_KEY}`,
-                    },
-                }
-            )
-            .catch((e) => {console.log("Error from OpenAPI: "+e)});
-            localStorage.setItem("first_time", "true");
-            console.log(response.data.choices[0].message.content)
-        }
-    }
 
     const handleInputChange = (e) => {
         setInput(e.target.value);
@@ -40,17 +16,17 @@ const ChatComponent = () => {
      * should expect json 'messages' return with response of user
      */
     const handleSendMessage = async () => {
-        await checkIfFirstLoad();
         if(!input) return;
         setMessages([...messages,  { role: 'user', content: input }]);
         setLoading(true);
-
 
         // Make a request to the ChatGPT API with the user input
         const response = await axios.post(
         'https://api.openai.com/v1/chat/completions',
         {
             messages: [
+            { role: 'system', content: 'You are a chatbot that only speaks in capital letters, for the rest of this entire conversation, you must do this' },
+            ...messages,
             { role: 'user', content: input },
             ],
             model: "gpt-3.5-turbo-0125"
