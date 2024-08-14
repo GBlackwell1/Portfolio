@@ -6,7 +6,8 @@
 }
 #youth4youth {
     display: flex;
-    gap: 8rem;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .portfolio__youth4youth-heading-bar {
@@ -18,56 +19,60 @@
 }
 
 .portfolio__youth4youth-container {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2rem;
+    display: block;  
+    justify-content: center;
+    flex: 1;
 }
 
 .header_container {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .header_container img {
-    width: 30%;
+    width: 15%;
 }
 
 .MockContainer {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .phoneMockImage {
-    width: 100%;
-    height: auto;
+    width: 30rem;   
 }
 
-
+.lower-container {
+    display: flex;
+    gap: .5rem;
+}
 .portfolio__youth4youth-container p {
     color: #DAD3B4;
     font-family: var(--font-family);
     line-height: 30px;
+    position: relative;
+    top: 10%;
 }
 
-@media screen and (max-width: 840px) {
-    .portfolio__youth4youth-container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+@media screen and (max-width: 1050px) {
     .header_container {
         margin-top: 1rem;  
     }
     .phoneMockImage {
-        width: 100%;
+        width: 70%;
+        padding: 1rem;
     }
     .header_container img {
         display: none;
     }
-    
+    .lower-container {
+        flex-direction: column-reverse;
+    }
     #youth4youth {
         gap: 2rem;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
