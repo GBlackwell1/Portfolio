@@ -1,6 +1,6 @@
 import React from 'react'
 import './Experience.css'
-import { Feature } from '../../components'
+import { Feature, FeatureExtended } from '../../components'
 
 const Experience = () => {
   return (
@@ -21,14 +21,11 @@ const Experience = () => {
       </div>
       { /* Right Information */ }
       <div className="portfolio__experience-container">
-        <Feature title="Programming Languages" text="My skillset is multilayered across several disciplines
-        in computer science and computer engineering. I am adept at Firebase, releasing several production applications
-        and using Python to analyze user data and gain feedback based off testing results. At university, I excelled in C++ 
-        and Java classes, applying technical and structural knowledge towards my robotics class, using Robotic Operating 
-        System (ROS 1) and Python to automate robotic movements. Continuing to my personal lab projects, using Unity and C# I have 
-        developed a front-end platform to visualize VR robotics movements. My personal work is in JavaScript and JS frameworks such as React. 
-        I have become knowledgable in React, developing several websites including this one using the framework. I have also applied
-        Java to Android application development."/>
+        <FeatureExtended title="Experience Summary" 
+        text="Languages: C#, C++, C, Java, JavaScript, Python, HTML/CSS, T-SQL, XML/XPath, Assembly/MIPS, System Verilog." 
+        secondText="Frameworks: .NET, React.JS, React Native, Node.JS."
+        thirdText="Positions Held: Research Assistant, Lab Manager, Full Stack Software Engineering Intern, Software Engineering Intern."
+        fourthText="Other: ROS1, git, OpenTelemetry, Firebase, WSL, UNIX/Bash, Unity, Android Studio, REST APIs."/>
         <Feature title="Personal Work and Interests" text="Much of my in-lab and personal 
         work is in web development, exploring new technologies in the space. 
         Specifically developing chat-bots and creating innovative ways to communicate with an end user."/>
