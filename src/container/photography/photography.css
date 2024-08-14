@@ -42,107 +42,28 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.portfolio__photography-image-container {
+.portfolio__photography-container-images {
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 2rem;
+    justify-content: center;
     align-content: center;
-    justify-content: center; 
+    flex-direction: row;
+    margin: 2rem;
+
+}
+.portfolio__photography-container-images img {
+    width: 20%;
+    height: 30rem;
+    object-fit: cover;
+    image-resolution: 1ddpx;
+    margin: .25rem;
+}
+.UP {
+    padding-bottom: 1rem !important;
+}
+.DOWN {
+    padding-top: 1rem !important;
 }
 
-.child {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-    padding: 1rem;
-    flex: 1 0 0;
-}
-/* .child-1 {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-}
-.child-2 {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-}
-.child-3 {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-}
-.child-4 {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-}
-.child-5 {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-}
-.child-6 {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transition: 1s ease;
-} */
-.child:hover {
-    z-index: 1;
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
-    transition: 1s ease;
-}
-/* .child-2:hover {
-    z-index: 4;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-}
-.child-3:hover {
-    z-index: 3;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-}
-.child-4:hover {
-    z-index: 3;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-}
-.child-5:hover {
-    z-index: 3;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-}
-.child-6:hover {
-    z-index: 3;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    transition: 1s ease;
-} */
-.DA-logo {
-    padding-top: 1rem;
-    padding-left: 1rem;
-    max-width: 100px;
-    filter: grayscale(100%);
-    filter: brightness(100);
-} 
 @media screen and (max-width: 650px) {
     .portfolio__photography-container img {
         max-width: 100px;
