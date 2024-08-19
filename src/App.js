@@ -15,8 +15,8 @@ const App = () => {
       <ChatComponent />
       <HI3Tech/>
       <Projects />
-      <Photography />
       <Youth4Youth />
+      <Photography />
       <Education />
       <Footer />
     </div>

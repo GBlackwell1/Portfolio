@@ -46,32 +46,25 @@ const ChatComponent = () => {
                                         Who is Gabriel Blackwell?
 
 I am a Computer Engineering student at University of South Carolina, which belongs in the top 100 public universities in the US for engineering. My focus over the past year has been has been research outside of academics. My main focus is developing projects in the realm of Human-Computer Interactions and Human-Robot Interactions.
-                                        
-Experience
+I graduate in December 2024.           
 
+Experience
 I am a highly self-motivated individual, actively seeking experience outside of academics
 In-lab Development
-
 I started working as a Research Volunteer beginning summer of 2022, I was then promoted to Paid Research Assistant at winter of 2023. I was granted additional paid hours due to work ethic. In the summer of 2023 I was promoted to a full time lab manager and lead software engineer.
-Programming Languages
 
-My skillset is multilayered across several disciplines in computer science and computer engineering. I am adept at Firebase, releasing several production applications and using Python to analyze user data and gain feedback based off testing results. At university, I excelled in C++ and Java classes, applying technical and structural knowledge towards my robotics class, using Robotic Operating System (ROS 1) and Python to automate robotic movements. Continuing to my personal lab projects, using Unity and C# I have developed a front-end platform to visualize VR robotics movements. My personal work is in JavaScript and JS frameworks such as React. I have become knowledgable in React, developing several websites including this one using the framework. I have also applied Java to Android application development.
+Experience Summary
+Languages: C#, C++, C, Java, JavaScript, Python, HTML/CSS, T-SQL, XML/XPath, Assembly/MIPS, System Verilog.
+
+Frameworks: .NET, React.JS, React Native, Node.JS.
+
+Positions Held: Research Assistant, Lab Manager, Full Stack Software Engineering Intern, Software Engineering Intern, Teaching Assistant.
+
+Other: ROS1, git, OpenTelemetry, Firebase, WSL, UNIX/Bash, Unity, Android Studio, REST APIs.
+
 Personal Work and Interests
-
 Much of my in-lab and personal work is in web development, exploring new technologies in the space. Specifically developing chat-bots and creating innovative ways to communicate with an end user.
 
-Remote Robotics Lab
-
-My personal project, in the early stages of development. It combines Augmented Reality with HRI to allow user’s to affordably remote access labs and operate equipment via a handheld device.
-The ALLURE Platform
-
-I work as a User testing moderator for the ALLURE project, which has published nationally. We use AI and a Rubik’s cube to study a user’s behaviors and maximize their learning process.
-QuitSTART Novelty in Healthcare
-
-A multi-university project that helps active nicotine addicts stop smoking via a novel chat-bot. This project has multiple private practices currently employing the application.
-Chat-bot Development
-
-As AI and chat-bot development continue to be at the forefront of software development, we are implementing this novel technology in almost all of our ongoing projects.
 ALLURE
 
 An interactive, educational platform using AI technology.
@@ -89,11 +82,12 @@ MSNTASK
 
 As lead software engineer, I've overseen and controlled study design, development, deployment, and data extraction/cleaning. Integrating React.js, Firebase, and python into one project to study user behavior in response to faux security prompts. A multi-university project between University Of Nevada, Las Vegas and University of South Carolina, seeks to explain and understand Dual-Task Interference theory.
 
-Photography has been my main creative outlet for close to 7 years. I have been shooting with Nikon for 5 years and occasionally I limit myself to weaker cameras to restrict choice and encourage creative ways of shooting. I also occasionally shoot using manual film cameras. If you would like to check out my work, you can refer to my page below! It contains almost every piece of artwork I've ever shot.
+Photography has been my main creative outlet for over 8 years. I have been shooting with Nikon for 6 years and occasionally I limit myself to weaker cameras to restrict choice and encourage creative ways of shooting. I also occasionally shoot using manual film cameras. If you would like to check out my work, you can refer to my portfolio below! It contains almost every piece of artwork I've shot over the past 2 years.
+The website is: gabrielsblackwell.myportfolio.com
 
 Youth4Youth
 
-Youth4Youth is a privately funded React Native based application to help promote health literacy in uninformed, rural areas in the state of South Carolina. We are working with national healthcare sponsors and title one school districts in the upstate to provide an application and resources that are widely accessible to students that might not have the capabilities to garner information by any other means. The marketing team is working hard to establish an online presence on social media and creating a website. Check back in the future to keep updated!
+Youth4Youth is a privately funded React Native based application to help promote health literacy in uninformed, rural areas in the state of South Carolina. We are working with national healthcare sponsors and title one school districts in the upstate to provide an application and resources that are widely accessible to students that might not have the capabilities to garner information by any other means. The marketing team is working hard to establish an online presence on social media and creating a website. We're also working on getting paperwork filed to become an offical 501c non profit. A proof of concept application was created in React Native and was submitted for my Computer Science Capstone project at the University of South Carolina. We're continuing to work on developing and expanding the application and intiative.
 
 #1 International Business University nationwide
 Top 20 nationwide for best learning communities

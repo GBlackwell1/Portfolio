@@ -24,7 +24,7 @@ const Experience = () => {
         <FeatureExtended title="Experience Summary" 
         text="Languages: C#, C++, C, Java, JavaScript, Python, HTML/CSS, T-SQL, XML/XPath, Assembly/MIPS, System Verilog." 
         secondText="Frameworks: .NET, React.JS, React Native, Node.JS."
-        thirdText="Positions Held: Research Assistant, Lab Manager, Full Stack Software Engineering Intern, Software Engineering Intern."
+        thirdText="Positions Held: Research Assistant, Lab Manager, Full Stack Software Engineering Intern, Software Engineering Intern, Teaching Assistant."
         fourthText="Other: ROS1, git, OpenTelemetry, Firebase, WSL, UNIX/Bash, Unity, Android Studio, REST APIs."/>
         <Feature title="Personal Work and Interests" text="Much of my in-lab and personal 
         work is in web development, exploring new technologies in the space. 
