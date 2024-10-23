@@ -15,7 +15,7 @@ const Header = () => {
         <p>
           I am a Computer Engineering student at University of South Carolina, 
           which belongs in the top 100 public universities in the US for engineering. 
-          My focus over the past year has been has been research outside of academics. 
+          My focus over the past year has been research outside of academics. 
           My main focus is developing projects in the realm of Human-Computer Interactions 
           and Human-Robot Interactions.
         </p>
